@@ -75,16 +75,16 @@ BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact"
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/@CuteExon"),
-            InlineKeyboardButton(text="🛠️ Repo", url="https://t.me/SSC_JE_RRB_JEE_COMPETATION"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/ASHISH_CONTACT_BOT"),
+            InlineKeyboardButton(text="🛠️ Repo", url="https://t.me/SIMPLE_THAKUR"),
         ],
     ]
 )
 
 # Image URLs for the random image feature
 image_urls = [
-    "https://te.legra.ph/file/159d3f9e2d57dd02db970.jpg",
-    "https://te.legra.ph/file/159d3f9e2d57dd02db970.jpg",
+    "https://i.ibb.co/yBKwv96x/265da52b607e.jpg",
+    "https://i.ibb.co/yBKwv96x/265da52b607e.jpg",
     # Add more image URLs as needed
 ]
 
@@ -354,7 +354,7 @@ async def restart_handler(_, m):
 async def start_command(bot: Client, message: Message):
     random_image_url = random.choice(image_urls)
     caption = (
-        f"𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐚𝐫 👋!\n\n➠ 𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭\n\n➠ Can Extract Videos & PDFs From Your Text File and Upload to Telegram!\n\n➠ For Guide Use Command /help 📖\n\n➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : {CREDIT} 🦁"
+        f"𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐚𝐫 👋!\n\n➠ 𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭\n\n➠ Can Extract Videos & PDFs From Your Text File and Upload to Telegram!\n\n➠ For Guide Use Command /help 📖\n\n➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : {𝐀𝐒𝐇𝐈𝐒𝐇} 🦁"
     )
     await bot.send_photo(
         chat_id=message.chat.id,
@@ -496,7 +496,7 @@ async def txt_handler(bot: Client, m: Message):
     else:
         b_name = raw_text0
 
-    await editable.edit(f"**╭━━━━❰ᴇɴᴛᴇʀ ʀᴇꜱᴏʟᴜᴛɪᴏɴ❱━━➣ \n┣━━⪼ send `144`  for 144p\n┣━━⪼ send `240`  for 240p\n┣━━⪼ send `360`  for 360p\n┣━━⪼ send `480`  for 480p\n┣━━⪼ send `720`  for 720p\n┣━━⪼ send `1080` for 1080p\n╰━━⌈⚡[`🦋{@ASHISH_RAJPUT_MP}🦋`]⚡⌋━━➣**")
+    await editable.edit(f"**╭━━━━❰ᴇɴᴛᴇʀ ʀᴇꜱᴏʟᴜᴛɪᴏɴ❱━━➣ \n┣━━⪼ send `144`  for 144p\n┣━━⪼ send `240`  for 240p\n┣━━⪼ send `360`  for 360p\n┣━━⪼ send `480`  for 480p\n┣━━⪼ send `720`  for 720p\n┣━━⪼ send `1080` for 1080p\n╰━━⌈⚡[`🦋{Ashish}🦋`]⚡⌋━━➣**")
     input2: Message = await bot.listen(editable.chat.id)
     raw_text2 = input2.text
     quality = f"{raw_text2}p"
@@ -771,7 +771,7 @@ async def txt_handler(bot: Client, m: Message):
                            f'╰━━🖇️𝐔𝐫𝐥 » <a href="{url}">**Api Link**</a>\n' \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"🛑**Send** /stop **to stop process**\n┃\n" \
-                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ {CREDIT}"
+                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ {𝐀𝐒𝐇𝐈𝐒𝐇}"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_and_decrypt_video(url, cmd, name, appxkey)  
                     filename = res_file  
@@ -800,7 +800,7 @@ async def txt_handler(bot: Client, m: Message):
                            f'╰━━🖇️𝐔𝐫𝐥 » <a href="{url}">**Api Link**</a>\n' \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"🛑**Send** /stop **to stop process**\n┃\n" \
-                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ {CREDIT}"
+                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ {𝐀𝐒𝐇𝐈𝐒𝐇}"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.decrypt_and_merge_video(mpd, keys_string, path, name, raw_text2)
                     filename = res_file
@@ -829,7 +829,7 @@ async def txt_handler(bot: Client, m: Message):
                            f'╰━━🖇️𝐔𝐫𝐥 » <a href="{url}">**Api Link**</a>\n' \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"🛑**Send** /stop **to stop process**\n┃\n" \
-                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ {CREDIT}"
+                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ {𝐀𝐒𝐇𝐈𝐒𝐇}"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
@@ -867,7 +867,7 @@ async def text_handler(bot: Client, m: Message):
     editable = await m.reply_text(f"<pre><code>**🔹Processing your link...\n🔁Please wait...⏳**</code></pre>")
     await m.delete()
 
-    await editable.edit(f"╭━━━━❰ᴇɴᴛᴇʀ ʀᴇꜱᴏʟᴜᴛɪᴏɴ❱━━➣ \n┣━━⪼ send `144`  for 144p\n┣━━⪼ send `240`  for 240p\n┣━━⪼ send `360`  for 360p\n┣━━⪼ send `480`  for 480p\n┣━━⪼ send `720`  for 720p\n┣━━⪼ send `1080` for 1080p\n╰━━⌈⚡[`{CREDIT}`]⚡⌋━━➣ ")
+    await editable.edit(f"╭━━━━❰ᴇɴᴛᴇʀ ʀᴇꜱᴏʟᴜᴛɪᴏɴ❱━━➣ \n┣━━⪼ send `144`  for 144p\n┣━━⪼ send `240`  for 240p\n┣━━⪼ send `360`  for 360p\n┣━━⪼ send `480`  for 480p\n┣━━⪼ send `720`  for 720p\n┣━━⪼ send `1080` for 1080p\n╰━━⌈⚡[`{𝐀𝐒𝐇𝐈𝐒𝐇}`]⚡⌋━━➣ ")
     input2: Message = await bot.listen(editable.chat.id, filters=filters.text & filters.user(m.from_user.id))
     raw_text2 = input2.text
     quality = f"{raw_text2}p"
@@ -1104,7 +1104,7 @@ async def text_handler(bot: Client, m: Message):
                 elif 'encrypted.m' in url:    
                     Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅɪɴɢ Sᴛᴀʀᴛᴇᴅ...⏳**\n" \
                            f"🔗𝐋𝐢𝐧𝐤 » {url}\n" \
-                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ {@ASHISH_RAJPUT_MP}"
+                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ {𝐀𝐒𝐇𝐈𝐒𝐇}"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_and_decrypt_video(url, cmd, name, appxkey)  
                     filename = res_file  
@@ -1116,7 +1116,7 @@ async def text_handler(bot: Client, m: Message):
                 elif 'drmcdni' in url or 'drm/wv' in url:
                     Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅɪɴɢ Sᴛᴀʀᴛᴇᴅ...⏳**\n" \
                            f"🔗𝐋𝐢𝐧𝐤 » {url}\n" \
-                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ {@ASHISH_RAJPUT_MP}"
+                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ {𝐀𝐒𝐇𝐈𝐒𝐇}"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.decrypt_and_merge_video(mpd, keys_string, path, name, raw_text2)
                     filename = res_file
@@ -1128,7 +1128,7 @@ async def text_handler(bot: Client, m: Message):
                 else:
                     Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅɪɴɢ Sᴛᴀʀᴛᴇᴅ...⏳**\n" \
                            f"🔗𝐋𝐢𝐧𝐤 » {url}\n" \
-                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ {@ASHISH_RAJPUT_MP}"
+                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ {𝐀𝐒𝐇𝐈𝐒𝐇}"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
